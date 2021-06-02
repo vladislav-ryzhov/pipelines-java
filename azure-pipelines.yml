@@ -25,6 +25,6 @@ steps:
     rootFolderOrFile: '$(Build.BinariesDirectory)'
     includeRootFolder: true
     archiveType: '7z'
-    sevenZipCompression: 'normal'
+    sevenZipCompression: '5'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
